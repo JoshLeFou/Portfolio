@@ -3,7 +3,7 @@
 
 /*=============== VARIABLES CSS ===============*/
 :root {
-  /*========== Colors ==========*/
+  /*========== Couleurs ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
   /*
       Blue: hsl(207, 90%, 61%)
@@ -24,8 +24,8 @@
   --body-color: hsl(var(--hue), 100%, 99%);
   --container-color: #fff;
 
-  /*========== Font and typography ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
+  /*========== Font et typographies ==========*/
+  /* .5rem = 8px | 1rem = 16px etc...*/
   --body-font: 'Poppins', sans-serif;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
@@ -56,7 +56,7 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
-  transition: .3s; /* For animation dark mode */
+  transition: .3s; /* Pour l'animation dark mode */
 }
 
 h1, h2, h3 {
@@ -100,8 +100,8 @@ body.dark-theme{
 }
 
 /*========== 
-    Color changes in some parts of 
-    the website, in light theme
+    Changements de couleurs en fonction du
+    thème du site
 ==========*/
 .dark-theme .button__gray{
   background-color: var(--container-color);
@@ -127,7 +127,7 @@ body.dark-theme{
   background-color: hsl(var(--hue), 8%, 32%);
 }
 
-/*=============== REUSABLE CSS CLASSES ===============*/
+/*=============== CLASSES CSS REUTILISABLES ===============*/
 .container {
   max-width: 968px;
   margin-left: 1.5rem;
@@ -257,7 +257,7 @@ body.dark-theme{
 }
 
 
-/*=============== BUTTONS ===============*/
+/*=============== BOUTTONS ===============*/
 .button{
   display: inline-flex;
   align-items: center;
@@ -293,7 +293,7 @@ body.dark-theme{
 }
 
 
-/*=============== FILTERS TABS ===============*/
+/*=============== SECTION FILTRES ===============*/
 .filters__content{
   margin: 2rem 0 2.5rem;
   background-color: var(--text-color-lighten);
@@ -324,7 +324,7 @@ body.dark-theme{
 }
 
 
-/*=============== PROJECTS ===============*/
+/*=============== PROJETS ===============*/
 .projects__card{
   position: relative;
   border-radius: 1rem;
@@ -457,7 +457,7 @@ body.dark-theme{
   background-color: hsl(var(--hue), 8%, 44%);
 }
 
-/*=============== BREAKPOINTS ===============*/
+/*=============== POUR LE RESPONSIVE ===============*/
 /* For small devices */
 @media screen and (max-width: 320px){
   .container{

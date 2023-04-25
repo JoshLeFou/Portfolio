@@ -1,4 +1,4 @@
-/*=============== FILTERS TABS ===============*/
+/*=============== SECTION FILTRES ===============*/
 const tabs = document.querySelectorAll('[data-target]'),
       tabContents = document.querySelectorAll('[data-content]')
 
