@@ -64,3 +64,22 @@ sr.reveal(`.profile__info`, {interval: 100, delay: 700})
 sr.reveal(`.profile__buttons`, {delay: 800})
 sr.reveal(`.filters__content`, {delay: 900})
 sr.reveal(`.filters`, {delay: 1000})
+
+/*=============== CLICK REVEAL ANIMATION ===============*/
+
+// const selectedButton = localStorage.getItem('filter-selected')
+
+// const projectButton = document.querySelector('.filters__content')
+// projectButton.addEventListener('click', () => {
+//     projectContent.classList.toggle('filters__active')
+// })
+
+// const srSkills = ScrollRevealSkills({
+//     origin: 'top',
+//     distance: '60px',
+//     duration: 2500,
+//     delay: 400,
+// })
+
+// srSkills.reveal(`.skills__title`, {delay: 500})
+// srSkills.reveal(`.skills__data`, {delay: 600})
